@@ -33,7 +33,7 @@ namespace N5.BuildingBlocks.Infrastructure
             
             var result = await _context.SaveChangesAsync(cancellationToken);
 
-            //await outboxNotificationTrigger.PublishAync(cancellationToken);
+            await outboxNotificationTrigger.PublishAync(cancellationToken);
 
             return result;
 
