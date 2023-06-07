@@ -4,6 +4,7 @@
     <TargetFramework>net5.0</TargetFramework>
     <UserSecretsId>8306a85e-d6b3-457d-8327-e4c1529193c9</UserSecretsId>
     <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
+    <DockerfileContext>..\..</DockerfileContext>
   </PropertyGroup>
 
   <ItemGroup>
@@ -17,7 +18,11 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\..\BuildingBlocks\Application\N5.BuildingBlocks.Application\N5.BuildingBlocks.Application.csproj" />
+    <ProjectReference Include="..\..\BuildingBlocks\Domain\N5.BuildingBlocks.Domain\N5.BuildingBlocks.Domain.csproj" />
+    <ProjectReference Include="..\..\BuildingBlocks\Infrastructure\N5.BuildingBlocks.Infrastructure\N5.BuildingBlocks.Infrastructure.csproj" />
     <ProjectReference Include="..\..\Module\Permissions\Application\N5.PermissionsManager.Application\N5.PermissionsManager.Application.csproj" />
+    <ProjectReference Include="..\..\Module\Permissions\Domain\N5.PermissionsManager.Domain\N5.PermissionsManager.Domain.csproj" />
     <ProjectReference Include="..\..\Module\Permissions\Infrastructure\N5.PermissionsManager.Infrastructure\N5.PermissionsManager.Infrastructure.csproj" />
   </ItemGroup>
 

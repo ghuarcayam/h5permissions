@@ -26,6 +26,7 @@ namespace N5.PermissionsManager.API
     {
         private const string connectionstringkey = "ConnectionStrings:Premissions";
         private const string uriElasticsearchKey = "Elasticsearch:Uri";
+        private const string addressKaykaKey = "Kafka:address";
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -36,8 +37,12 @@ namespace N5.PermissionsManager.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.ConfigureKafka();
+            var adressKafka = Configuration[addressKaykaKey];
+
+            services.ConfigureKafka(adressKafka);
+
             services.AddControllers();
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "N5.PermissionsManager.API", Version = "v1" });
@@ -51,12 +56,11 @@ namespace N5.PermissionsManager.API
 
             InitializeModules(container);
 
-            if (env.IsDevelopment())
-            {
-                app.UseDeveloperExceptionPage();
-                app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "N5.PermissionsManager.API v1"));
-            }
+            
+            app.UseDeveloperExceptionPage();
+            app.UseSwagger();
+            app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "N5.PermissionsManager.API v1"));
+            
 
             app.UseHttpsRedirection();
 

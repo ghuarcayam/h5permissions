@@ -4,7 +4,8 @@ import reduxThunk from 'redux-thunk';
 import rootReducer from './root-reducer'
 
 const middlewares =[reduxThunk];
-process.env.NODE_ENV == "develoment"? middlewares.push(logger):void(0);
+console.log("process", process.env.NODE_ENV);
+process.env.NODE_ENV == "development"? middlewares.push(logger):void(0);
 
 const store = createStore(rootReducer, applyMiddleware(...middlewares))
 

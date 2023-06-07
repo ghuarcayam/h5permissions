@@ -8,7 +8,7 @@ namespace N5.PermissionsManager.API.Configurations
 {
     public static class KafkaConfiguration
     {
-        public static void ConfigureKafka(this IServiceCollection services) 
+        public static void ConfigureKafka(this IServiceCollection services, string address) 
         {
             services.AddMassTransit(x =>
             {
@@ -17,7 +17,7 @@ namespace N5.PermissionsManager.API.Configurations
                 {
                     x.UsingKafka((context, cfg) =>
                     {
-                        cfg.Host("localhost", h =>
+                        cfg.Host(address, h =>
                         {
                             h.UseSasl(s =>
                             {

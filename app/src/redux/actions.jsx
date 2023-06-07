@@ -1,6 +1,8 @@
 import * as types from './actionType'
 import axios from 'axios';
 
+const url = process.env.NODE_ENV == "development" ? "https://localhost:44312" : "http://localhost:8088";
+
 const getPermissions =(permissions)=> ({
     type:types.GET_PERMISSIONS,
     payload: permissions
@@ -25,7 +27,7 @@ const getPermissionTypes = (_types)=>({
 export const loadPermissionTypes = ()=>{
     return  function(dispatch){
         axios
-        .get(`https://localhost:44312/permission/types`)
+        .get(`${url}/permission/types`)
         .then((response)=>{
             console.log('response', response)
             dispatch(getPermissionTypes(response.data.items));
@@ -38,7 +40,7 @@ export const loadPermissionTypes = ()=>{
 export const loadPermissions = ()=>{
     return  function(dispatch){
         axios
-        .get(`https://localhost:44312/permission?startAt=1&pageSize=100`)
+        .get(`${url}/permission?startAt=1&pageSize=100`)
         .then((response)=>{
             console.log('response', response)
             dispatch(getPermissions(response.data.items));
@@ -53,7 +55,7 @@ export const loadPermissions = ()=>{
 export const loadSinglePermission = (id)=>{
     return  function(dispatch){
         axios
-        .get(`https://localhost:44312/permission/${id}`)
+        .get(`${url}/permission/${id}`)
         .then((response)=>{
             console.log('response', response)
             dispatch(getSinglePermission(response.data));
@@ -68,7 +70,7 @@ export const loadSinglePermission = (id)=>{
 export const addPermission = (permission)=>{
     
     return function (dispatch){
-        axios.post(`https://localhost:44312/permission`, permission)
+        axios.post(`${url}/permission`, permission)
         .then((response)=>{
             dispatch(permissionAdded())
             dispatch(loadPermissions())
@@ -79,7 +81,7 @@ export const addPermission = (permission)=>{
 export const editPermission = (id,permission)=>{
     
     return function (dispatch){
-        axios.patch(`https://localhost:44312/permission/${id}`, permission)
+        axios.patch(`${url}/permission/${id}`, permission)
         .then((response)=>{
             dispatch(permissionEdited())
             dispatch(loadPermissions())

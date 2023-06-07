@@ -26,7 +26,7 @@ namespace N5.PermissionsManager.IntegrationTests
         [SetUp]
         public async Task BeforeEachTest() 
         {
-            ConnectionString = "Integrated Security=SSPI;Persist Security Info=False;Initial Catalog=SLD_TRANSVERSAL;Data Source=.\\sqlexpress";
+            ConnectionString = "Password=PasswordO1.;Persist Security Info=True;User ID=sa;Initial Catalog=H5_PermissionsDB;Data Source=.";
 
             using (var sqlConnection = new SqlConnection(ConnectionString))
             {
