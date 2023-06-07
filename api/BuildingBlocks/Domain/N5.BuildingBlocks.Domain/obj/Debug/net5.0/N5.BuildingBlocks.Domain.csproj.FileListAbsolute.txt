@@ -1,0 +1,12 @@
+D:\N5\N5.PermissionsManager.API\BuildingBlocks\Domain\N5.BuildingBlocks.Domain\bin\Debug\net5.0\N5.BuildingBlocks.Domain.deps.json
+D:\N5\N5.PermissionsManager.API\BuildingBlocks\Domain\N5.BuildingBlocks.Domain\bin\Debug\net5.0\N5.BuildingBlocks.Domain.dll
+D:\N5\N5.PermissionsManager.API\BuildingBlocks\Domain\N5.BuildingBlocks.Domain\bin\Debug\net5.0\N5.BuildingBlocks.Domain.pdb
+D:\N5\N5.PermissionsManager.API\BuildingBlocks\Domain\N5.BuildingBlocks.Domain\obj\Debug\net5.0\N5.BuildingBlocks.Domain.csproj.AssemblyReference.cache
+D:\N5\N5.PermissionsManager.API\BuildingBlocks\Domain\N5.BuildingBlocks.Domain\obj\Debug\net5.0\N5.BuildingBlocks.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\N5\N5.PermissionsManager.API\BuildingBlocks\Domain\N5.BuildingBlocks.Domain\obj\Debug\net5.0\N5.BuildingBlocks.Domain.AssemblyInfoInputs.cache
+D:\N5\N5.PermissionsManager.API\BuildingBlocks\Domain\N5.BuildingBlocks.Domain\obj\Debug\net5.0\N5.BuildingBlocks.Domain.AssemblyInfo.cs
+D:\N5\N5.PermissionsManager.API\BuildingBlocks\Domain\N5.BuildingBlocks.Domain\obj\Debug\net5.0\N5.BuildingBlocks.Domain.csproj.CoreCompileInputs.cache
+D:\N5\N5.PermissionsManager.API\BuildingBlocks\Domain\N5.BuildingBlocks.Domain\obj\Debug\net5.0\N5.BuildingBlocks.Domain.dll
+D:\N5\N5.PermissionsManager.API\BuildingBlocks\Domain\N5.BuildingBlocks.Domain\obj\Debug\net5.0\refint\N5.BuildingBlocks.Domain.dll
+D:\N5\N5.PermissionsManager.API\BuildingBlocks\Domain\N5.BuildingBlocks.Domain\obj\Debug\net5.0\N5.BuildingBlocks.Domain.pdb
+D:\N5\N5.PermissionsManager.API\BuildingBlocks\Domain\N5.BuildingBlocks.Domain\obj\Debug\net5.0\ref\N5.BuildingBlocks.Domain.dll

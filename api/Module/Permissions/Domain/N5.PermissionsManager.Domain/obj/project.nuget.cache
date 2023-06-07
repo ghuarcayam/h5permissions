@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "lAMuH8TLQh4PRu92Xk6OHWLh6y45SI4nNDokEDI61TiDVjrnCn8rqmP2k3ebIKQj4Ow9bYf04SoBJlbf8YCAQw==",
+  "success": true,
+  "projectFilePath": "D:\\N5\\N5.PermissionsManager.API\\Module\\Permissions\\Domain\\N5.PermissionsManager.Domain\\N5.PermissionsManager.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ghuarcaya\\.nuget\\packages\\mediatr\\12.0.1\\mediatr.12.0.1.nupkg.sha512",
+    "C:\\Users\\ghuarcaya\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
+    "C:\\Users\\ghuarcaya\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\6.0.0\\microsoft.bcl.asyncinterfaces.6.0.0.nupkg.sha512",
+    "C:\\Users\\ghuarcaya\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

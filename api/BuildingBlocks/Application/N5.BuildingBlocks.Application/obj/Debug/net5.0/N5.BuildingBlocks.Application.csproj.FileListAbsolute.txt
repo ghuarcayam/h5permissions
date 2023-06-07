@@ -1,0 +1,15 @@
+D:\N5\N5.PermissionsManager.API\BuildingBlocks\Application\N5.BuildingBlocks.Application\bin\Debug\net5.0\N5.BuildingBlocks.Application.deps.json
+D:\N5\N5.PermissionsManager.API\BuildingBlocks\Application\N5.BuildingBlocks.Application\bin\Debug\net5.0\N5.BuildingBlocks.Application.dll
+D:\N5\N5.PermissionsManager.API\BuildingBlocks\Application\N5.BuildingBlocks.Application\bin\Debug\net5.0\N5.BuildingBlocks.Application.pdb
+D:\N5\N5.PermissionsManager.API\BuildingBlocks\Application\N5.BuildingBlocks.Application\obj\Debug\net5.0\N5.BuildingBlocks.Application.csproj.AssemblyReference.cache
+D:\N5\N5.PermissionsManager.API\BuildingBlocks\Application\N5.BuildingBlocks.Application\obj\Debug\net5.0\N5.BuildingBlocks.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\N5\N5.PermissionsManager.API\BuildingBlocks\Application\N5.BuildingBlocks.Application\obj\Debug\net5.0\N5.BuildingBlocks.Application.AssemblyInfoInputs.cache
+D:\N5\N5.PermissionsManager.API\BuildingBlocks\Application\N5.BuildingBlocks.Application\obj\Debug\net5.0\N5.BuildingBlocks.Application.AssemblyInfo.cs
+D:\N5\N5.PermissionsManager.API\BuildingBlocks\Application\N5.BuildingBlocks.Application\obj\Debug\net5.0\N5.BuildingBlocks.Application.csproj.CoreCompileInputs.cache
+D:\N5\N5.PermissionsManager.API\BuildingBlocks\Application\N5.BuildingBlocks.Application\obj\Debug\net5.0\N5.BuildingBlocks.Application.dll
+D:\N5\N5.PermissionsManager.API\BuildingBlocks\Application\N5.BuildingBlocks.Application\obj\Debug\net5.0\refint\N5.BuildingBlocks.Application.dll
+D:\N5\N5.PermissionsManager.API\BuildingBlocks\Application\N5.BuildingBlocks.Application\obj\Debug\net5.0\N5.BuildingBlocks.Application.pdb
+D:\N5\N5.PermissionsManager.API\BuildingBlocks\Application\N5.BuildingBlocks.Application\obj\Debug\net5.0\ref\N5.BuildingBlocks.Application.dll
+D:\N5\N5.PermissionsManager.API\BuildingBlocks\Application\N5.BuildingBlocks.Application\bin\Debug\net5.0\N5.BuildingBlocks.Domain.dll
+D:\N5\N5.PermissionsManager.API\BuildingBlocks\Application\N5.BuildingBlocks.Application\bin\Debug\net5.0\N5.BuildingBlocks.Domain.pdb
+D:\N5\N5.PermissionsManager.API\BuildingBlocks\Application\N5.BuildingBlocks.Application\obj\Debug\net5.0\N5.BuildingBlocks.Application.csproj.CopyComplete
